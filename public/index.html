@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplayer Game - Lobby Entry</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="lobby-entry">
+        <h1>Lobby Entry</h1>
+        <div id="lobby-controls">
+            <input type="text" id="lobby-id-input" placeholder="Enter Lobby ID">
+            <button id="join-lobby-button">Join Lobby</button>
+        </div>
+        <div id="player-name-entry">
+            <input type="text" id="player-name-input" placeholder="Enter Your Name">
+        </div>
+        <button id="create-lobby-button">Create Lobby</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client-lobby-entry.js"></script>
+</body>
+</html>
