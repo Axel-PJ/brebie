@@ -1,0 +1,65 @@
+/* Styling for the lobby page with a gradient background */
+body {
+    animation: gradientAnimation 30s linear infinite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-color: rgba(82, 242, 219, 0.7);
+    }
+    50% {
+        background-color: rgba(231, 76, 60, 0.7);
+    }
+    100% {
+        background-color: rgba(82, 242, 219, 0.7);
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.player-list {
+    flex: 1;
+    padding: 10px;
+}
+
+.chat {
+    flex: 3;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+}
+
+.player-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.player-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333; /* Adjust text color as needed */
+}
+
+.chat ul {
+    list-style-type: none;
+    padding: 0;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.chat li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333; /* Adjust text color as needed */
+}

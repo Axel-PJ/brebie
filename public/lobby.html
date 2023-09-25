@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Multiplayer Game - Inside Lobby</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="lobby.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div id="inside-lobby">
@@ -27,6 +28,11 @@
             <div id="chat-input-box">
                 <input type="text" id="chat-input" placeholder="Type a message and press Enter">
             </div>
+        </div>
+        <div class="ready-button">
+            <button id="ready-button">
+                <i class="fa" id="ready-icon"></i> Ready
+            </button>
         </div>
         <button id="leave-lobby-button">Leave Lobby</button>
     </div>

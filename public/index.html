@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Multiplayer Game - Lobby Entry</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <div id="lobby-entry">
@@ -16,6 +16,11 @@
             <input type="text" id="player-name-input" placeholder="Enter Your Name">
         </div>
         <button id="create-lobby-button">Create Lobby</button>
+        <div id="lobby-list-box">
+            <ul id="lobby-list">
+
+            </ul>
+        </div>
     </div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="client-lobby-entry.js"></script>

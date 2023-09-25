@@ -1,0 +1,3 @@
+Add master to the player who created lobby, only him can start the Game
+check unicity on playerName
+min 5 players to start a game
